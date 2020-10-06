@@ -1,0 +1,46 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ],
+  "@screens/Home/components/ChartPage": [
+    {
+      "id": "./node_modules/highcharts-react-official/dist/highcharts-react.min.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/highcharts/highcharts.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/highcharts/highstock.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/screens/Home/components/ChartBar/ChartBar.tsx",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/screens/Home/components/ChartBar/index.tsx",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/screens/Home/components/ChartLine/CharLine.tsx",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/screens/Home/components/ChartLine/index.tsx",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/screens/Home/components/ChartPage/ChartPage.tsx",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/screens/Home/components/ChartPage/index.tsx",
+      "file": "static/chunks/1.js"
+    }
+  ]
+}
