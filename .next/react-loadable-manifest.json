@@ -19,11 +19,7 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./src/screens/Home/components/ChartBar/ChartBar.tsx",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./src/screens/Home/components/ChartBar/index.tsx",
+      "id": "./node_modules/highcharts/modules/exporting.js",
       "file": "static/chunks/1.js"
     },
     {

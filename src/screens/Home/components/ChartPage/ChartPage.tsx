@@ -1,27 +1,66 @@
 import React from 'react';
 import Highcharts from 'highcharts/highstock'
 
+import HighchartsExporting from 'highcharts/modules/exporting'
 import ChartLine from '@screens/Home/components/ChartLine';
 import ChartBar from '@screens/Home/components/ChartBar';
 
-
-
+if (typeof Highcharts === 'object') {
+  HighchartsExporting(Highcharts)
+}
 
 const chartOptions = {
+
   title: {
     text:'Tendência'
+  },
+  legend: {
+    enabled:false
   },
   tooltip:{
     enabled:false
   },
+  xAxis: {
+    type: 'datetime'
+},
+  yAxis: {
+    title: {
+      enabled:false
+    }
+},
+plotOptions: {
+  series: {
+      marker: {
+          enabled: false
+      },
+      states: {
+        hover: {
+            enabled: false
+        }
+    }
+  }
+},
+
   series: [{
-    data: [7,8,9],
+    data: [
+      [Date.UTC(1970, 10, 25), 0],
+      [Date.UTC(1970, 10, 26), 1],
+      [Date.UTC(1970, 10, 27), 4],
+    ],
   },
   {
-    data: [1,6,5],
+    data: [
+      [Date.UTC(1970, 10, 25), 0],
+      [Date.UTC(1970, 10, 26), 1],
+      [Date.UTC(1970, 10, 27), 3],
+    ],
   },
   {
-    data: [7,2,3],
+    data: [
+      [Date.UTC(1970, 10, 25), 0],
+      [Date.UTC(1970, 10, 26), 2],
+      [Date.UTC(1970, 10, 27), 3],
+    ],
   }],
 }
 
@@ -112,9 +151,6 @@ const data = [1,2,3,4,5];
 export const ChartPage: React.FC = () => (
   <>
     <ChartLine options={chartOptions} highcharts={Highcharts} />
-    <div>
-    <ChartBar  options={chartOptionsBar} highcharts={Highcharts}/>
-      
-    </div>
+  
   </>
 );

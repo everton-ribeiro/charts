@@ -184,6 +184,17 @@ eval("module.exports = require(\"highcharts/highstock\");//# sourceURL=[module]\
 
 /***/ }),
 
+/***/ "highcharts/modules/exporting":
+/*!***********************************************!*\
+  !*** external "highcharts/modules/exporting" ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"highcharts/modules/exporting\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJoaWdoY2hhcnRzL21vZHVsZXMvZXhwb3J0aW5nXCI/MmFhZiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJoaWdoY2hhcnRzL21vZHVsZXMvZXhwb3J0aW5nLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwiaGlnaGNoYXJ0cy9tb2R1bGVzL2V4cG9ydGluZ1wiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///highcharts/modules/exporting\n");
+
+/***/ }),
+
 /***/ "next/dynamic":
 /*!*******************************!*\
   !*** external "next/dynamic" ***!
